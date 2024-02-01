@@ -24,10 +24,8 @@ public class TablaMultiplicarTest {
             "7 x 10 = 70"
         };
 
-        // Llamar al método de impresión y obtener la salida como un array
+        
         String[] actualOutput = TablaMultiplicar.imprimirTablaMultiplicar(n);
-
-        // Verificar si la salida coincide con la esperada
         assertArrayEquals(expectedOutput, actualOutput);
     }
 }
